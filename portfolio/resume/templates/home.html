@@ -1,0 +1,154 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% block body %}
+
+
+
+<section class="container mt-5">
+    <h2 class="text-center mb-4">About Me</h2>
+
+    <div class="row">
+
+        <div class="col-md-4 mb-4">
+            <img src="{% static 'images/profile2.enc' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+
+        <div class="col-md-8">
+            <p>Hello! I'm Kenneth Cheruiyot, a passionate developer based in Elgeyo Marakwet.</p>
+            <p>From building dynamic websites to crafting rich user interfaces, I love to use technology to bring ideas to life. With a background in Emobilis , I bridge the gap between design and development.</p>
+            <p>When I'm not coding, I enjoy <strong>watching football and dancing.</strong></p>
+        </div>
+    </div>
+
+
+
+</section>
+
+
+
+    <section class="container mt-5">
+    <h2 class="text-center mb-4">Languages I Know</h2>
+
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+             <img src="{% static 'images/css.png' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3><strong>CSS</strong></h3>
+            <p>CSS is an interpreted, high-level, general-purpose programming language. It's great for web development, data analysis, artificial intelligence, and more.</p>
+        </div>
+    </div>
+
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+            <img src="{% static 'images/js.png' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3><strong>JavaScript</strong></h3>
+            <p>JavaScript is a programming language that enables interactive web pages and is an essential part of web browsers.</p>
+        </div>
+    </div>
+
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+             <img src="{% static 'images/english.jpg' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3><strong>English</strong></h3>
+            <p>As a spoken language, English is known to be the language of love. It's spoken in many countries worldwide and is one of the UN's official languages.</p>
+        </div>
+    </div>
+
+
+
+</section>
+
+
+
+    <section class="container mt-5">
+    <h2 class="text-center mb-4">My Services</h2>
+
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+             <img src="{% static 'images/webdeveloper2.jpg' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3>Web Development</h3>
+            <p>There is web development with me here and it involves building and deploying
+                responsive web application into the field of techs and to the clients at large</p>
+        </div>
+    </div>
+
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+             <img src="{% static 'images/android.jpg' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3>Mobile App Development</h3>
+            <p>I offer also mobile app development under the current technology of framework JetPackCompose to equip my client with
+                 appropriate and current technology skills in the field</p>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+             <img src="{% static 'images/service.png' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3>Other Services</h3>
+            <p>I also offer any other services that a client needs to get from me as per the client.</p>
+        </div>
+    </div>
+
+
+
+</section>
+
+
+    <section class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Contact Information</h3>
+            <ul class="list-unstyled">
+                <li><strong>Phone:</strong> +254746589039</li>
+                <li><strong>Email:</strong> cheruiyotk134@gmail.com</li>
+                <li><strong>Address:</strong> 001110 Keiyo, Eldoret, Kenya</li>
+            </ul>
+        </div>
+
+
+        <div class="row mt-5">
+            <div class="col-12">
+                <h3>My Location</h3>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31918.10547496432!2d35.5753791144002!3d0.301216730532387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1780c188d6743b33%3A0x19cc11694850509d!2sTuresia!5e0!3m2!1sen!2ske!4v1697358827444!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h3>Send a Message</h3>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary button-spacing">Send</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+{% endblock %}

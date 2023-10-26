@@ -1,0 +1,28 @@
+
+
+{% extends 'layout.html' %}
+{% load static %}
+{% block body %}
+
+
+<section class="container mt-5">
+    <h2 class="text-center mb-4">About Me</h2>
+
+    <div class="row">
+
+        <div class="col-md-4 mb-4">
+            <img src="{% static 'images/profile2.enc' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+
+        <div class="col-md-8">
+            <p>Hello! I'm Kenneth Cheruiyot, a passionate developer based in Elgeyo Marakwet.</p>
+            <p>From building dynamic websites to crafting rich user interfaces, I love to use technology to bring ideas to life. With a background in Emobilis , I bridge the gap between design and development.</p>
+            <p>When I'm not coding, I enjoy <strong>watching football and dancing.</strong></p>
+        </div>
+    </div>
+
+
+
+</section>
+
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% block body %}
+<section class="container mt-5">
+    <h2 class="text-center mb-4">Languages I Know</h2>
+
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+             <img src="{% static 'images/css.png' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3><strong>CSS</strong></h3>
+            <p>CSS is an interpreted, high-level, general-purpose programming language. It's great for web development, data analysis, artificial intelligence, and more.</p>
+        </div>
+    </div>
+
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+            <img src="{% static 'images/js.png' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3><strong>JavaScript</strong></h3>
+            <p>JavaScript is a programming language that enables interactive web pages and is an essential part of web browsers.</p>
+        </div>
+    </div>
+
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+             <img src="{% static 'images/english.jpg' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3><strong>English</strong></h3>
+            <p>As a spoken language, English is known to be the language of love. It's spoken in many countries worldwide and is one of the UN's official languages.</p>
+        </div>
+    </div>
+
+
+
+</section>
+{% endblock %}

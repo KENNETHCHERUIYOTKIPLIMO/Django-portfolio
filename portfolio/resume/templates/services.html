@@ -1,0 +1,47 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% block body %}
+
+
+<section class="container mt-5">
+    <h2 class="text-center mb-4">My Services</h2>
+
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+             <img src="{% static 'images/webdeveloper2.jpg' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3>Web Development</h3>
+            <p>There is web development with me here and it involves building and deploying
+                responsive web application into the field of techs and to the clients at large</p>
+        </div>
+    </div>
+
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+             <img src="{% static 'images/android.jpg' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3>Mobile App Development</h3>
+            <p>I offer also mobile app development under the current technology of framework JetPackCompose to equip my client with
+                 appropriate and current technology skills in the field</p>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+             <img src="{% static 'images/service.png' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3>Other Services</h3>
+            <p>I also offer any other services that a client needs to get from me as per the client.</p>
+        </div>
+    </div>
+
+
+
+</section>
+
+{% endblock %}

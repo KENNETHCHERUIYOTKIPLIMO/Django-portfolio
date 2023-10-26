@@ -1,0 +1,45 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<section class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Contact Information</h3>
+            <ul class="list-unstyled">
+                <li><strong>Phone:</strong> +254746589039</li>
+                <li><strong>Email:</strong> cheruiyotk134@gmail.com</li>
+                <li><strong>Address:</strong> 001110 Keiyo, Eldoret, Kenya</li>
+            </ul>
+        </div>
+
+
+        <div class="row mt-5">
+            <div class="col-12">
+                <h3>My Location</h3>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31918.10547496432!2d35.5753791144002!3d0.301216730532387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1780c188d6743b33%3A0x19cc11694850509d!2sTuresia!5e0!3m2!1sen!2ske!4v1697358827444!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h3>Send a Message</h3>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary button-spacing">Send</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
